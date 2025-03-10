@@ -1,7 +1,7 @@
 # Reporting Guidelines Markdown Collection
 
 ## 概要
-このレポジトリは、医学・公衆衛生学分野で広く使用されている報告ガイドライン（Reporting Guidelines）をマークダウン形式とMermaid図表で提供しています。元のPDFや文書形式のガイドラインをAIや自動化ツールで利用しやすいフォーマットに変換することを目的としています。
+このレポジトリは、医学・公衆衛生学分野で広く使用されている報告ガイドライン（Reporting Guidelines）をマークダウン形式とMermaid図表で提供しています。元のPDFや文書形式のガイドラインをAIや自動化ツールで利用しやすいフォーマットに変換することを目的としています。なお、各チェックリストはマークダウン形式でのテーブル表示の体裁を整えるために、一部内容を改変しています。
 
 ## 収録ガイドライン
 
@@ -32,9 +32,10 @@ LLMを用いた予測モデルの開発・評価の報告のためのガイド�
 このレポジトリの内容は、原著作物のクリエイティブコモンズライセンス（CC BY）を継承しています。各ガイドラインは以下の論文から派生したものです：
 
 - PRISMA: Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. doi: 10.1136/bmj.n71
-- RECORD: Benchimol EI, Smeeth L, Guttmann A, et al. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Medicine 2015
-- STROBE: von Elm E, Altman DG, Egger M, et al. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. J Clin Epidemiol 2008;61:344-9
+- RECORD: Benchimol EI, Smeeth L, Guttmann A, et al. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) statement. PLoS Med. 2015 Oct 6;12(10):e1001885. doi: 10.1371/journal.pmed.1001885
+- STROBE: von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP; STROBE Initiative. Strengthening the reporting of observational studies in epidemiology (STROBE) statement: guidelines for reporting observational studies. BMJ. 2007 Oct 20;335(7624):806–808. doi: 10.1136/bmj.39335.541782.AD
 - TRIPOD-AI: Collins GS, Moons KGM, Dhiman P, et al. Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD): the TRIPOD-AI extension for studies developing or validating prediction models using artificial intelligence. BMJ 2024;385:e078378. doi:10.1136/bmj-2023-078378
+- TRIPOD-LLM: Gallifant J, Afshar M, Ameen S, et al. The TRIPOD-LLM reporting guideline for studies using large language models. Nature Medicine 2025;31:60-69. doi: 10.1038/s41591-023-02595-0
 
 ## 引用方法
 このレポジトリを引用する場合は、以下の形式を使用してください：

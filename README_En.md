@@ -1,7 +1,7 @@
 # Reporting Guidelines Markdown Collection
 
 ## Overview
-This repository provides reporting guidelines widely used in medicine and public health fields in markdown format with Mermaid diagrams. The aim is to convert original PDF or document format guidelines into formats that are more accessible for AI and automation tools.
+This repository provides reporting guidelines widely used in medicine and public health fields in markdown format with Mermaid diagrams. The aim is to convert original PDF or document format guidelines into formats that are more accessible for AI and automation tools. Note that each checklist has been partially modified to maintain proper table formatting in markdown.
 
 ## Included Guidelines
 
@@ -41,9 +41,10 @@ Converting original PDF format guidelines to markdown and Mermaid diagrams offer
 The content of this repository inherits the Creative Commons license (CC BY) from the original works. Each guideline is derived from the following papers:
 
 - PRISMA: Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. doi: 10.1136/bmj.n71
-- RECORD: Benchimol EI, Smeeth L, Guttmann A, et al. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Medicine 2015
-- STROBE: von Elm E, Altman DG, Egger M, et al. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. J Clin Epidemiol 2008;61:344-9
+- RECORD: Benchimol EI, Smeeth L, Guttmann A, et al. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) statement. PLoS Med. 2015 Oct 6;12(10):e1001885. doi: 10.1371/journal.pmed.1001885
+- STROBE: von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP; STROBE Initiative. Strengthening the reporting of observational studies in epidemiology (STROBE) statement: guidelines for reporting observational studies. BMJ. 2007 Oct 20;335(7624):806–808. doi: 10.1136/bmj.39335.541782.AD
 - TRIPOD-AI: Collins GS, Moons KGM, Dhiman P, et al. Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD): the TRIPOD-AI extension for studies developing or validating prediction models using artificial intelligence. BMJ 2024;385:e078378. doi:10.1136/bmj-2023-078378
+- TRIPOD-LLM: Gallifant J, Afshar M, Ameen S, et al. The TRIPOD-LLM reporting guideline for studies using large language models. Nature Medicine 2025;31:60-69. doi: 10.1038/s41591-023-02595-0
 
 ## How to Cite
 When citing this repository, please use the following format:

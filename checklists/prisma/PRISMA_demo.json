@@ -1,0 +1,82 @@
+{
+  "title": "PRISMA 2020 expanded checklist (Demo)",
+  "source": "https://www.prisma-statement.org/",
+  "description": "This is a demo version of the PRISMA 2020 expanded checklist in JSON format. This demo includes a selection of key items from the full checklist.",
+  "items": [
+    {
+      "category": "TITLE",
+      "section": "TITLE",
+      "item": "1",
+      "elements": [
+        {
+          "description": "Identify the report as a systematic review in the title.",
+          "type": "Essential",
+          "reportLocation": ""
+        },
+        {
+          "description": "Report an informative title that provides key information about the main objective or question the review addresses (e.g. the population(s) and intervention(s) the review addresses).",
+          "type": "Essential",
+          "reportLocation": ""
+        },
+        {
+          "description": "Consider providing additional information in the title, such as the method of analysis used, the designs of included studies, or an indication that the review is an update of an existing review, or a continually updated (\"living\") systematic review.",
+          "type": "Additional",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "ABSTRACT",
+      "section": "ABSTRACT",
+      "item": "2",
+      "elements": [
+        {
+          "description": "Report an abstract addressing each item in the PRISMA 2020 for Abstracts checklist.",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "METHODS",
+      "section": "SEARCH STRATEGY",
+      "item": "7",
+      "elements": [
+        {
+          "description": "Provide the full line by line search strategy as run in each database with a sophisticated interface (such as Ovid), or the sequence of terms that were used to search simpler interfaces, such as search engines or websites.",
+          "type": "Essential",
+          "reportLocation": ""
+        },
+        {
+          "description": "Describe any limits applied to the search strategy (e.g. date or language) and justify these by linking back to the review's eligibility criteria.",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "RESULTS",
+      "section": "STUDY SELECTION (flow of studies)",
+      "item": "16a",
+      "elements": [
+        {
+          "description": "Report, ideally using a flow diagram, the number of: records identified; records excluded before screening; records screened; records excluded after screening titles or titles and abstracts; reports retrieved for detailed evaluation; potentially eligible reports that were not retrievable; retrieved reports that did not meet inclusion criteria and the primary reasons for exclusion; and the number of studies and reports included in the review.",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "DISCUSSION",
+      "section": "DISCUSSION",
+      "item": "23a",
+      "elements": [
+        {
+          "description": "Provide a general interpretation of the results in the context of other evidence.",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    }
+  ]
+}
