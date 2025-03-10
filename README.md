@@ -1,32 +1,76 @@
 # Reporting Guidelines Markdown Collection
 
 ## 概要
-このレポジトリは、医学・公衆衛生学分野で広く使用されている報告ガイドライン（Reporting Guidelines）をマークダウン形式とMermaid図表で提供しています。元のPDFや文書形式のガイドラインをAIや自動化ツールで利用しやすいフォーマットに変換することを目的としています。なお、各チェックリストはマークダウン形式でのテーブル表示の体裁を整えるために、一部内容を改変しています。
+このレポジトリは、医学・公衆衛生学分野で広く使用されている報告ガイドライン（Reporting Guidelines）をマークダウン形式とJSON形式、およびMermaid図表で提供しています。元のPDFや文書形式のガイドラインをAIや自動化ツールで利用しやすいフォーマットに変換することを目的としています。なお、各チェックリストはマークダウン形式でのテーブル表示の体裁を整えるために、一部内容を改変しています。
 
 ## 収録ガイドライン
 
 ### PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses)
 システマティックレビューとメタアナリシスの報告のためのガイドライン
-- [PRISMA 2020 Checklist](./checklists/prisma/PRISMA_2020_checklist.md)
-- [PRISMA 2020 Abstract Checklist](./checklists/prisma/PRISMA_2020_abstract_checklist.md)
-- [PRISMA 2020 Expanded Checklist](./checklists/prisma/PRISMA_2020_expanded_checklist.md)
+- [PRISMA 2020 Checklist](./checklists/prisma/PRISMA_2020_checklist.md) - [JSON版](./checklists/prisma/PRISMA_2020_checklist_optimized.json)
+- [PRISMA 2020 Abstract Checklist](./checklists/prisma/PRISMA_2020_abstract_checklist.md) - [JSON版](./checklists/prisma/PRISMA_2020_abstract_checklist_optimized.json)
+- [PRISMA 2020 Expanded Checklist](./checklists/prisma/PRISMA_2020_expanded_checklist.md) - [JSON版](./checklists/prisma/PRISMA_2020_expanded_checklist.json)
 - [PRISMA 2020 Flow Diagram](./checklists/prisma/PRISMA_Flowchart_Updated.md) - Mermaid形式で実装
 
 ### RECORD (REporting of studies Conducted using Observational Routinely-collected Data)
 ルーチン収集された健康データを使用した観察研究の報告のためのガイドライン
-- [RECORD Checklist](./checklists/record/RECORD%20Checklist.md)
+- [RECORD Checklist](./checklists/record/RECORD%20Checklist.md) - [JSON版](./checklists/record/RECORD_Checklist_optimized.json)
 
 ### STROBE (STrengthening the Reporting of OBservational studies in Epidemiology)
 観察研究の報告のためのガイドライン
-- [STROBE Checklist](./checklists/strobe/STROBE-checklist-v4-combined.md)
+- [STROBE Checklist](./checklists/strobe/STROBE-checklist-v4-combined.md) - [JSON版](./checklists/strobe/STROBE-checklist-v4-combined_optimized.json)
 
 ### TRIPOD-AI (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis - Artificial Intelligence)
 AIを用いた予測モデルの開発・評価の報告のためのガイドライン
-- [TRIPOD-AI Checklist](./checklists/tripod_ai/TRIPODAI_checklist.md)
+- [TRIPOD-AI Checklist](./checklists/tripod_ai/TRIPODAI_checklist.md) - [JSON版](./checklists/tripod_ai/TRIPODAI_checklist_optimized.json)
+- [TRIPOD-AI Abstract Checklist](./checklists/tripod_ai/TRIPODAI_abstract_checklist.md) - [JSON版](./checklists/tripod_ai/TRIPODAI_abstract_checklist_optimized.json)
 
 ### TRIPOD-LLM (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis - Large Language Model)
 LLMを用いた予測モデルの開発・評価の報告のためのガイドライン
-- [TRIPOD-LLM Checklist](./checklists/TRIPOD-LLM/TRIPOD-LLM-Checklist.md)
+- [TRIPOD-LLM Checklist](./checklists/TRIPOD-LLM/TRIPOD-LLM-Checklist.md) - [JSON版](./checklists/TRIPOD-LLM/TRIPOD-LLM-Checklist_optimized.json)
+- [TRIPOD-LLM Abstract Checklist](./checklists/TRIPOD-LLM/TRIPOD-LLM-Abstract-Checklist.md) - [JSON版](./checklists/TRIPOD-LLM/TRIPOD-LLM-Abstract-Checklist_optimized.json)
+- [TRIPOD-LLM Explanation and Elaboration](./checklists/TRIPOD-LLM/TRIPOD-LLM-Explanation-Elaboration.md) - [JSON版（最適化済）](./checklists/TRIPOD-LLM/TRIPOD-LLM-Explanation-Elaboration_optimized.json)
+
+## JSONフォーマット
+
+このレポジトリでは、各ガイドラインをマークダウン形式に加えて、構造化されたJSON形式でも提供しています。JSON形式には以下のような特徴と利点があります：
+
+### JSON構造
+```json
+{
+  "title": "チェックリスト名",
+  "source": "出典URL等",
+  "description": "チェックリストの説明文",
+  "categories": [
+    {
+      "name": "カテゴリ（例: TITLE, ABSTRACT）",
+      "sections": [
+        {
+          "name": "セクション名",
+          "items": [
+            {
+              "item": "項目番号（例: 1, 2, 3）",
+              "description": "チェックリスト項目の説明文",
+              "type": "Essential または Additional または Where applicable",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### 主な特徴
+- **階層構造**：カテゴリ > セクション > 項目 の3階層構造により論理的な分類を実現
+- **項目タイプ分類**：必須項目（Essential）、追加項目（Additional）、条件付き項目（Where applicable）の区別
+- **reportLocation**：論文内のどこに該当項目が記載されているかを記録するためのフィールド
+
+### 利用シナリオ
+- **自動チェック**：論文が各チェックリスト項目を満たしているかをプログラムで自動評価
+- **AIとの連携**：構造化データにより、OpenAIなどのAPIと連携した論文評価が可能
+- **カスタムツール開発**：論文執筆支援ツールや評価ツールの開発に活用可能
 
 ## ライセンス情報
 このレポジトリの内容は、原著作物のクリエイティブコモンズライセンス（CC BY）を継承しています。各ガイドラインは以下の論文から派生したものです：
