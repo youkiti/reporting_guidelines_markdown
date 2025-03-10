@@ -147,7 +147,7 @@ def analyze_paper_with_prisma(paper_text: str, prisma_checklist: Dict[str, Any])
     
     # OpenAIのparse機能を使用して論文からPRISMA項目情報を抽出
     completion = client.beta.chat.completions.parse(
-        model="gpt-4o-2024-08-06",  # 最新のモデルを指定
+        model="gpt-4o",  # モデルを指定
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"以下の論文テキストをPRISMAガイドラインに従って分析してください。\n\n{checklist_summary}\n\n===論文テキスト===\n\n{paper_text}"}
@@ -160,8 +160,8 @@ def analyze_paper_with_prisma(paper_text: str, prisma_checklist: Dict[str, Any])
 
 # メイン処理
 if __name__ == "__main__":
-    # BMJ論文のPDFのURL
-    pdf_url = "https://www.bmj.com/content/388/bmj-2025-084613.full.pdf"
+    # オープンアクセス論文のPDFのURL (medrXivの論文を使用)
+    pdf_url = "https://www.medrxiv.org/content/10.1101/2024.03.04.24303733v1.full.pdf"
     
     try:
         # PDFをダウンロード
@@ -172,7 +172,7 @@ if __name__ == "__main__":
         print(f"PDFから{len(paper_text)}文字のテキストを抽出しました")
         
         # PRISMAチェックリストのJSONを読み込む
-        prisma_checklist_path = "../../checklists/prisma/PRISMA_2020_checklist_optimized.json"
+        prisma_checklist_path = "checklists/prisma/PRISMA_2020_checklist_optimized.json"
         prisma_checklist = load_prisma_checklist(prisma_checklist_path)
         
         # 論文をPRISMAガイドラインに基づいて分析

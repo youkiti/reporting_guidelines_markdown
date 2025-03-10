@@ -28,6 +28,33 @@ A guideline for reporting the development and evaluation of prediction models us
 A guideline for reporting the development and evaluation of prediction models using LLMs
 - [TRIPOD-LLM Checklist](./checklists/TRIPOD-LLM/TRIPOD-LLM-Checklist.md)
 
+## Sample Code and Implementation Examples
+
+This repository includes sample code and API implementation examples to utilize the reporting guidelines.
+
+### OpenAI API Sample (PRISMA Analysis Tool)
+
+The [examples/openai_python](./examples/openai_python) directory contains a sample that automatically analyzes academic paper PDFs based on PRISMA guidelines using the OpenAI API.
+
+#### Key Features
+- Automatic downloading and text extraction from academic paper PDFs
+- Matching paper text with PRISMA checklist items using OpenAI API
+- Structured output of analysis results
+  - Location and compliance status of each checklist item in the paper
+  - Overall compliance rate with PRISMA guidelines
+  - Summary analysis and improvement suggestions
+
+#### Usage
+```bash
+# Install required packages
+pip install -r required.txt
+
+# Run the sample
+python examples/openai_python/prisma_pdf_analyzer.py
+```
+
+For more details, see the [OpenAI API Sample README](./examples/openai_python/README.md).
+
 ## Benefits of Markdown and Mermaid Diagrams
 Converting original PDF format guidelines to markdown and Mermaid diagrams offers the following advantages:
 
@@ -50,7 +77,7 @@ The content of this repository inherits the Creative Commons license (CC BY) fro
 When citing this repository, please use the following format:
 
 ```
-Yuki Kataoka. Reporting Guidelines Markdown Collection. GitHub. https://github.com/youkiti/reporting_guidelines_markdown [accessed date]
+Yuki Kataoka. Reporting Guidelines Markdown Collections. GitHub. https://github.com/youkiti/reporting_guidelines_markdown [accessed date]
 ```
 
 Additionally, please cite the original papers listed above when using each guideline.

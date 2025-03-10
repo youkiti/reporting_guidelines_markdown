@@ -31,6 +31,33 @@ LLMを用いた予測モデルの開発・評価の報告のためのガイド�
 - [TRIPOD-LLM Abstract Checklist](./checklists/TRIPOD-LLM/TRIPOD-LLM-Abstract-Checklist.md) - [JSON版](./checklists/TRIPOD-LLM/TRIPOD-LLM-Abstract-Checklist_optimized.json)
 - [TRIPOD-LLM Explanation and Elaboration](./checklists/TRIPOD-LLM/TRIPOD-LLM-Explanation-Elaboration.md) - [JSON版（最適化済）](./checklists/TRIPOD-LLM/TRIPOD-LLM-Explanation-Elaboration_optimized.json)
 
+## サンプルコードと実装例
+
+このリポジトリには、報告ガイドラインを活用するためのサンプルコードとAPIの実装例が含まれています。
+
+### OpenAI API サンプル（PRISMA分析ツール）
+
+[examples/openai_python](./examples/openai_python) ディレクトリには、OpenAI APIを使用して論文のPDFをPRISMAガイドラインに基づいて自動分析するサンプルが含まれています。
+
+#### 主な機能
+- 学術論文PDFの自動ダウンロードとテキスト抽出
+- OpenAI APIを使用した論文テキストとPRISMAチェックリストの照合
+- 構造化された形式での分析結果出力
+  - 各チェックリスト項目の論文内での位置と準拠状況
+  - PRISMAガイドラインへの全体的な準拠率
+  - 分析の要約と改善提案
+
+#### 使用方法
+```bash
+# 必要なパッケージのインストール
+pip install -r required.txt
+
+# 実行
+python examples/openai_python/prisma_pdf_analyzer.py
+```
+
+詳細については、[OpenAI API サンプルのREADME](./examples/openai_python/README.md)を参照してください。
+
 ## JSONフォーマット
 
 このレポジトリでは、各ガイドラインをマークダウン形式に加えて、構造化されたJSON形式でも提供しています。JSON形式には以下のような特徴と利点があります：
@@ -73,7 +100,7 @@ LLMを用いた予測モデルの開発・評価の報告のためのガイド�
 - **カスタムツール開発**：論文執筆支援ツールや評価ツールの開発に活用可能
 
 ## ライセンス情報
-このレポジトリの内容は、原著作物のクリエイティブコモンズライセンス（CC BY）を継承しています。各ガイドラインは以下の論文から派生したものです：
+このレポジトリの内容は、原著作物のクリエイティブコモンズライセンス（CC BY）を継承しています。各ガイドラインは以下の論文から派生したものです。なお、STROBEとTRIPOD-LLMについては明示がなく、各チェックリストを公開しているサイトからの引用を行っています：
 
 - PRISMA: Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. doi: 10.1136/bmj.n71
 - RECORD: Benchimol EI, Smeeth L, Guttmann A, et al. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) statement. PLoS Med. 2015 Oct 6;12(10):e1001885. doi: 10.1371/journal.pmed.1001885
@@ -85,7 +112,7 @@ LLMを用いた予測モデルの開発・評価の報告のためのガイド�
 このレポジトリを引用する場合は、以下の形式を使用してください：
 
 ```
-Yuki Kataoka. Reporting Guidelines Markdown Collection. GitHub. https://github.com/youkiti/reporting_guidelines_markdown [accsessed date]
+Yuki Kataoka. Reporting Guidelines Markdown Collections. GitHub. https://github.com/youkiti/reporting_guidelines_markdown [accsessed date]
 ```
 
 また、各ガイドラインを使用する際には、上記の原著論文も併せて引用してください。
