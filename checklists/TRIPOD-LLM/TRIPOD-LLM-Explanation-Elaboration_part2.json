@@ -1,0 +1,321 @@
+{
+  "categories_continued": [
+    {
+      "name": "Methods",
+      "sections": [
+        {
+          "name": "Annotation",
+          "items": [
+            {
+              "item": "8a",
+              "description": "If annotation was done, report how text was labeled, including providing specific annotation guidelines with examples.\n- Provide a copy of the annotation guidelines provided to any annotators along with any examples.\n- Provide any other training or reference material provided to the annotators.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "8b",
+              "description": "If annotation was done, report how many annotators labeled the dataset(s), including the proportion of data in each dataset that were annotated by more than 1 annotator, and the inter-annotator agreement.\n- State the number of annotators that were used in total, and what proportion was annotated by multiple individuals\n- Report the level of agreement among annotators when multiple were used using appropriate statistical measures e.g. Cohen's kappa.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "8c",
+              "description": "If annotation was done, provide information on the background and experience of the annotators.\n- Provide details on the professional background, qualifications, and experience of the annotators.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Prompting",
+          "items": [
+            {
+              "item": "9a",
+              "description": "If research involved prompting LLMs, provide details on the processes used during prompt design, curation, and selection.\n- Describe the methodology used to create the initial set of prompts.\n- Explain the criteria and process used to refine and curate the prompts.\n- Detail the process used to select the final set of prompts from the curated list.\n- Describe how prompts were tested to ensure they effectively elicited the desired responses from the LLM.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "9b",
+              "description": "If research involved prompting LLMs, report what data were used to develop the prompts.\n- Describe the datasets or sources of information used to create the prompts.\n- Provide details on the datasets used to evaluate the performance of the prompts.\n- Report if there was any overlap between the datasets used to develop the prompts and to evaluate the methods.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Summarization",
+          "items": [
+            {
+              "item": "10",
+              "description": "Describe any preprocessing of the data before summarization.\n- Outline any preprocessing steps applied to the data before summarization e.g. de-identification.\n- State if any reformatting or additional processing was performed specifically for summarization e.g. removal of specific sections.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "SS",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Instruction tuning/Alignment",
+          "items": [
+            {
+              "item": "11",
+              "description": "If instruction tuning/alignment strategies were used, what were the instructions and interface used for evaluation, and what were the characteristics of the populations doing evaluation?\n- Describe the specific instruction/preference datasets provided to the LLM during the tuning or alignment process.\n- Describe the interface or tools through which evaluators evaluate and provide feedback on the LLM's performance during alignment.\n- Provide information on the demographics and expertise of the evaluators.",
+              "type": "Where applicable",
+              "researchDesign": "M D",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Compute",
+          "items": [
+            {
+              "item": "12",
+              "description": "Report compute, or proxies thereof (e.g., time on what and how many machines, cost on what and how many machines, inference time, floating-point operations per second (FLOPs)), required to carry out methods.\n- Specify the computational resources used, for example machines, time, and cost.\n- Report the inference time and any metrics related to computational efficiency, as available.\n- If possible, provide additional metrics such as FLOPs to quantify the computational requirements.",
+              "type": "Essential",
+              "researchDesign": "M D E",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Ethical Approval",
+          "items": [
+            {
+              "item": "13",
+              "description": "Name the institutional research board or ethics committee that approved the study and describe the participant-informed consent or the ethics committee waiver of informed consent.\n- Name the institutional review board or ethics committee that provided approval.\n- Describe the informed consent process or the waiver granted by the ethics committee.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Open Science",
+          "items": [
+            {
+              "item": "14a",
+              "description": "Give the source of funding and the role of the funders for the present study.\n- Identify the funding sources supporting the research.\n- Describe any role the funders had in the study design, data collection, analysis, or publication.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "14b",
+              "description": "Declare any conflicts of interest and financial disclosures for all authors.\n- Disclose any relationships or activities that could be perceived as influencing the research.\n- Provide information on any financial interests or affiliations of the authors.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "14c",
+              "description": "Indicate where the study protocol can be accessed or state that a protocol was not prepared.\n- Provide details on where and how the clinical study protocol can be accessed by others.",
+              "type": "Essential",
+              "researchDesign": "H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "14d",
+              "description": "Provide registration information for the study, including register name and registration number, or state that the study was not registered.\n- If a clinical trial component is undertaken, state the name of the registry and the registration number for the study.\n- Clearly state if the study was not registered and provide reasons if applicable.",
+              "type": "Essential",
+              "researchDesign": "H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "14e",
+              "description": "Provide details of the availability of the study data.\n- Explain where and how the study data can be accessed, including any conditions or restrictions.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "14f",
+              "description": "Provide details of the availability of the code to reproduce the study results.\n- Describe how and where the code used in the study can be accessed by others.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Public Involvement",
+          "items": [
+            {
+              "item": "15",
+              "description": "Provide details of any patient and public involvement during the design, conduct, reporting, interpretation, or dissemination of the study or state no involvement.\n- Describe how patients or the public were involved in various stages of the research.\n- Explain if and how the findings were shared with patients or the public.",
+              "type": "Essential",
+              "researchDesign": "H",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Results",
+      "sections": [
+        {
+          "name": "Participants",
+          "items": [
+            {
+              "item": "16a",
+              "description": "When using patient/EHR data, describe the flow of text/EHR/patient data through the study, including the number of documents/questions/participants with and without the outcome/label and follow-up time as applicable.\n- If EHR data is used, describe the process of how patient/EHR data were selected, filtered, and included in the study.\n- Specify the number of documents, questions, or participants included and excluded at each stage.\n- Indicate the number of participants with and without the specific outcome/label and the duration of follow-up.",
+              "type": "Where applicable",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "16b",
+              "description": "When using patient/EHR data, report the characteristics overall and, for each data source or setting, and for development/evaluation splits, including the key dates, key characteristics, and sample size.\n- Provide a summary of the overall demographic and clinical characteristics of the dataset.\n- Detail the characteristics for each specific data source or setting.\n- Describe the sample size and key characteristics for the development and evaluation datasets.",
+              "type": "Where applicable",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "16c",
+              "description": "For LLM evaluation that include clinical outcomes, show a comparison of the distribution of important clinical variables that may be associated with the outcome between development and evaluation data, if available.\n- Provide a comparison of key predictors, demographics, and clinical characteristics between the development and evaluation datasets.\n- Report whether the distribution of predictors, demographics, and clinical is comparable between datasets.\n- These characteristics will depend on the specific context of use and task for each study, as established by literature review and/or domain expert input.",
+              "type": "Where applicable",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "16d",
+              "description": "When using patient/EHR data, specify the number of participants and outcome events in each analysis (e.g., for LLM development, hyperparameter tuning, LLM evaluation).\n- Report the number of participants and outcome events for each specific analysis.\n- Describe the stages of analysis and the corresponding data used.",
+              "type": "Where applicable",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Performance",
+          "items": [
+            {
+              "item": "17",
+              "description": "Report LLM performance according to pre-specified metrics (see item 7a) and/or human evaluation (see item 7d).\n- Report performance overall and for any key subgroups (e.g., sociodemographic, diagnosis, data source).\n- Consider plots to aid presentation.\n- Consider reporting confidence intervals overall and for any key subgroups.\n- Consider reporting uncertainty estimation of the generated output (e.g., LLM-verbalized estimates, logit-based estimates) overall and for any key subgroups.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "LLM Updating",
+          "items": [
+            {
+              "item": "18",
+              "description": "If applicable, report the results from any LLM updating, including the updated LLM and subsequent performance.\n- Explain any modifications or updates made to the LLM and the reasons behind them.\n- Report the performance metrics of the updated LLM.",
+              "type": "Where applicable",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Discussion",
+      "sections": [
+        {
+          "name": "Interpretation",
+          "items": [
+            {
+              "item": "19a",
+              "description": "Give an overall interpretation of the main results, including issues of fairness in the context of the objectives and previous studies.\n- Summarize the main findings and their implications overall and for the specified or anticipated healthcare contexts of use.\n- Discuss any fairness or robustness issues observed, such as biases in predictions.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Limitations",
+          "items": [
+            {
+              "item": "19b",
+              "description": "Discuss any limitations of the study and their effects on any biases, statistical uncertainty, and generalizability.\n- Identify and explain the limitations of the study design, robustness of results, and implications for generalisability of findings.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Usability of the LLM in context",
+          "items": [
+            {
+              "item": "19c",
+              "description": "Describe any known challenges in using data for the specified task and domain context with reference to representation, missingness, harmonization, and bias.\n- Explain the difficulties encountered in using the data for the specified task e.g. formatting inconsistencies, missingness, class imbalance, or harmonization challenges.\n- Discuss issues related to data representation and potential biases that may impact findings generalizability or robustness.",
+              "type": "Essential",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "19d",
+              "description": "Define the intended use for the implementation under evaluation, including the intended input, end-user, level of autonomy/human oversight.\n- Specify the purpose of the LLM and the type of input it requires.\n- Describe the end-users and the level of autonomy or human oversight required.\n- Discuss barriers to access by the intended end-user, e.g. lack of access to hospital systems with EHRs, wifi, technical support.",
+              "type": "Essential",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "19e",
+              "description": "If applicable, describe how poor quality or unavailable input data should be assessed and handled when implementing the LLM, i.e., what is the usability of the LLM in the context of current clinical care.\n- Explain strategies for managing poor quality or missing input data.\n- Describe the LLM's usability in real-world clinical settings.",
+              "type": "Where applicable",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "19f",
+              "description": "If applicable, specify whether users will be required to interact in the handling of the input data or use of the LLM, and what level of expertise is required of users.\n- Describe the extent of user interaction needed for handling input data or operating the LLM.\n- Specify the level of expertise needed to use the LLM effectively.",
+              "type": "Where applicable",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "19g",
+              "description": "Discuss any next steps for future research, with a specific view to applicability and generalizability of the LLM.\n- Outline potential areas for further investigation to improve the LLM.\n- Discuss how the findings can be applied to other contexts or populations",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
