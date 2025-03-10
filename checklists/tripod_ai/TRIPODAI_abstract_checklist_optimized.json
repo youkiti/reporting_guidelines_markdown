@@ -1,0 +1,155 @@
+{
+  "title": "TRIPOD+AI for Abstracts",
+  "source": "Collins GS, Moons KGM, Dhiman P, et al. BMJ 2024;385:e078378. doi:10.1136/bmj-2023-078378",
+  "description": "TRIPOD+AI reporting guideline for Abstracts - Version: 11-January-2024",
+  "categories": [
+    {
+      "name": "Title",
+      "sections": [
+        {
+          "name": "Title",
+          "items": [
+            {
+              "item": "1",
+              "description": "Identify the study as developing or evaluating the performance of a multivariable prediction model, the target population, and the outcome to be predicted",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Background",
+          "items": [
+            {
+              "item": "2",
+              "description": "Provide a brief explanation of the healthcare context and rationale for developing or evaluating the performance of all models",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Objectives",
+      "sections": [
+        {
+          "name": "Objectives",
+          "items": [
+            {
+              "item": "3",
+              "description": "Specify the study objectives, including whether the study describes model development, evaluation, or both",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Methods",
+      "sections": [
+        {
+          "name": "Methods",
+          "items": [
+            {
+              "item": "4",
+              "description": "Describe the sources of data",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "5",
+              "description": "Describe the eligibility criteria and setting where the data were collected",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "6",
+              "description": "Specify the outcome to be predicted by the model, including time horizon of predictions in case of prognostic models",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "7",
+              "description": "Specify the type of model, a summary of the model-building steps, and the method for internal validation (Not required for external validation)",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "8",
+              "description": "Specify the measures used to assess model performance (eg, discrimination, calibration, clinical utility)",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Results",
+      "sections": [
+        {
+          "name": "Results",
+          "items": [
+            {
+              "item": "9",
+              "description": "Report the number of participants and outcome events",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "10",
+              "description": "Summarise the predictors in the final model (Not required for external validation)",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "11",
+              "description": "Report model performance estimates (with confidence intervals)",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Discussion",
+      "sections": [
+        {
+          "name": "Discussion",
+          "items": [
+            {
+              "item": "12",
+              "description": "Give an overall interpretation of the main results",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Registration",
+      "sections": [
+        {
+          "name": "Registration",
+          "items": [
+            {
+              "item": "13",
+              "description": "Give the registration number and name of the registry or repository",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "The RECORD statement – checklist of items",
+  "source": "Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM, the RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Medicine 2015; in press.",
+  "description": "Extended from the STROBE statement, that should be reported in observational studies using routinely collected health data.",
+  "categories": [
+    {
+      "name": "Title and abstract",
+      "sections": [
+        {
+          "name": "Title and abstract",
+          "items": [
+            {
+              "item": "1.1",
+              "description": "The type of data used should be specified in the title or abstract. When possible, the name of the databases used should be included.",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "1.2",
+              "description": "If applicable, the geographic region and timeframe within which the study took place should be reported in the title or abstract.",
+              "type": "Where applicable",
+              "reportLocation": ""
+            },
+            {
+              "item": "1.3",
+              "description": "If linkage between databases was conducted for the study, this should be clearly stated in the title or abstract.",
+              "type": "Where applicable",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Methods",
+      "sections": [
+        {
+          "name": "Participants",
+          "items": [
+            {
+              "item": "6.1",
+              "description": "The methods of study population selection (such as codes or algorithms used to identify subjects) should be listed in detail. If this is not possible, an explanation should be provided.",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "6.2",
+              "description": "Any validation studies of the codes or algorithms used to select the population should be referenced. If validation was conducted for this study and not published elsewhere, detailed methods and results should be provided.",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "6.3",
+              "description": "If the study involved linkage of databases, consider use of a flow diagram or other graphical display to demonstrate the data linkage process, including the number of individuals with linked data at each stage.",
+              "type": "Where applicable",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Variables",
+          "items": [
+            {
+              "item": "7.1",
+              "description": "A complete list of codes and algorithms used to classify exposures, outcomes, confounders, and effect modifiers should be provided. If these cannot be reported, an explanation should be provided.",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Data access and cleaning methods",
+          "items": [
+            {
+              "item": "12.1",
+              "description": "Authors should describe the extent to which the investigators had access to the database population used to create the study population.",
+              "type": "Essential",
+              "reportLocation": ""
+            },
+            {
+              "item": "12.2",
+              "description": "Authors should provide information on the data cleaning methods used in the study.",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Linkage",
+          "items": [
+            {
+              "item": "12.3",
+              "description": "State whether the study included person-level, institutional-level, or other data linkage across two or more databases. The methods of linkage and methods of linkage quality evaluation should be provided.",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Results",
+      "sections": [
+        {
+          "name": "Participants",
+          "items": [
+            {
+              "item": "13.1",
+              "description": "Describe in detail the selection of the persons included in the study (i.e., study population selection) including filtering based on data quality, data availability and linkage. The selection of included persons can be described in the text and/or by means of the study flow diagram.",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Discussion",
+      "sections": [
+        {
+          "name": "Limitations",
+          "items": [
+            {
+              "item": "19.1",
+              "description": "Discuss the implications of using data that were not created or collected to answer the specific research question(s). Include discussion of misclassification bias, unmeasured confounding, missing data, and changing eligibility over time, as they pertain to the study being reported.",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other Information",
+      "sections": [
+        {
+          "name": "Accessibility of protocol, raw data, and programming code",
+          "items": [
+            {
+              "item": "22.1",
+              "description": "Authors should provide information on how to access any supplemental information such as the study protocol, raw data, or programming code.",
+              "type": "Essential",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

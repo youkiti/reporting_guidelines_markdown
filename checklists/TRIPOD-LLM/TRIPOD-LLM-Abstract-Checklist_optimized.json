@@ -1,0 +1,173 @@
+{
+  "title": "TRIPOD-LLM for Abstracts Checklist",
+  "source": "TRIPOD statement website: https://www.tripod-statement.org/tripod-llm/",
+  "description": "The TRIPOD-LLM reporting guideline for studies using large language models - Abstract section",
+  "categories": [
+    {
+      "name": "Title",
+      "sections": [
+        {
+          "name": "Title",
+          "items": [
+            {
+              "item": "2a",
+              "description": "Identify the study as developing, fine-tuning and/or evaluating the performance of an LLM, specifying the task, the target population and the outcome to be predicted.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Background",
+          "items": [
+            {
+              "item": "2b",
+              "description": "Provide a brief explanation of the healthcare context, use case and rationale for developing or evaluating the performance of an LLM.",
+              "type": "Essential",
+              "researchDesign": "E H",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Objectives",
+      "sections": [
+        {
+          "name": "Objectives",
+          "items": [
+            {
+              "item": "2c",
+              "description": "Specify the study objectives, including whether the study describes LLMs development, tuning and/or evaluation",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Methods",
+      "sections": [
+        {
+          "name": "Methods",
+          "items": [
+            {
+              "item": "2d",
+              "description": "Describe the key elements of the study setting.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "2e",
+              "description": "Detail all data used in the study, specify data splits and any selective use of data.",
+              "type": "Essential",
+              "researchDesign": "M D E",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "2f",
+              "description": "Specify the name and version of LLM(s) used.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "2g",
+              "description": "Briefly summarize the LLM-building steps, including any fine-tuning, reward modeling and RLHF.",
+              "type": "Essential",
+              "researchDesign": "M D",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "2h",
+              "description": "Describe the specific tasks performed by the LLMs (for example, medical QA, summarization and extraction), highlighting key inputs and outputs used in the final LLM.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            },
+            {
+              "item": "2i",
+              "description": "Specify the evaluation datasets/populations used, including the endpoint evaluated, and detail whether this information was held out during training/tuning where relevant and what measure(s) were used to evaluate LLM performance.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Results",
+      "sections": [
+        {
+          "name": "Results",
+          "items": [
+            {
+              "item": "2j",
+              "description": "Give an overall report and interpretation of the main results.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Discussion",
+      "sections": [
+        {
+          "name": "Discussion",
+          "items": [
+            {
+              "item": "2k",
+              "description": "Explicitly state any broader implications or concerns that have arisen in light of these results.",
+              "type": "Essential",
+              "researchDesign": "All",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "sections": [
+        {
+          "name": "Other",
+          "items": [
+            {
+              "item": "2l",
+              "description": "Give the registration number and name of the registry or repository (if relevant).",
+              "type": "Essential",
+              "researchDesign": "H",
+              "llmTask": "All",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

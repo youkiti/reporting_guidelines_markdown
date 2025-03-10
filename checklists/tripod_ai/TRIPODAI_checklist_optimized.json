@@ -1,0 +1,571 @@
+{
+  "title": "TRIPOD+AI Checklist",
+  "source": "Collins GS, Moons KGM, Dhiman P, et al. BMJ 2024;385:e078378. doi:10.1136/bmj-2023-078378",
+  "description": "Checklist for Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis with Artificial Intelligence.",
+  "categories": [
+    {
+      "name": "TITLE",
+      "sections": [
+        {
+          "name": "Title",
+          "items": [
+            {
+              "item": "1",
+              "description": "Identify the study as developing or evaluating the performance of a multivariable prediction model, the target population, and the outcome to be predicted",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ABSTRACT",
+      "sections": [
+        {
+          "name": "Abstract",
+          "items": [
+            {
+              "item": "2",
+              "description": "See TRIPOD+AI for Abstracts checklist",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INTRODUCTION",
+      "sections": [
+        {
+          "name": "Background",
+          "items": [
+            {
+              "item": "3a",
+              "description": "Explain the healthcare context (including whether diagnostic or prognostic) and rationale for developing or evaluating the prediction model, including references to existing models",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "3b",
+              "description": "Describe the target population and the intended purpose of the prediction model in the context of the care pathway, including its intended users (e.g., healthcare professionals, patients, public)",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "3c",
+              "description": "Describe any known health inequalities between sociodemographic groups",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Objectives",
+          "items": [
+            {
+              "item": "4",
+              "description": "Specify the study objectives, including whether the study describes the development or validation of a prediction model (or both)",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "METHODS",
+      "sections": [
+        {
+          "name": "Data",
+          "items": [
+            {
+              "item": "5a",
+              "description": "Describe the sources of data separately for the development and evaluation datasets (e.g., randomised trial, cohort, routine care or registry data), the rationale for using these data, and representativeness of the data",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "5b",
+              "description": "Specify the dates of the collected participant data, including start and end of participant accrual; and, if applicable, end of follow-up",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Participants",
+          "items": [
+            {
+              "item": "6a",
+              "description": "Specify key elements of the study setting (e.g., primary care, secondary care, general population) including the number and location of centres",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "6b",
+              "description": "Describe the eligibility criteria for study participants",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "6c",
+              "description": "Give details of any treatments received, and how they were handled during model development or evaluation, if relevant",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Data preparation",
+          "items": [
+            {
+              "item": "7",
+              "description": "Describe any data pre-processing and quality checking, including whether this was similar across relevant sociodemographic groups",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Outcome",
+          "items": [
+            {
+              "item": "8a",
+              "description": "Clearly define the outcome that is being predicted and the time horizon, including how and when assessed, the rationale for choosing this outcome, and whether the method of outcome assessment is consistent across sociodemographic groups",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "8b",
+              "description": "If outcome assessment requires subjective interpretation, describe the qualifications and demographic characteristics of the outcome assessors",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "8c",
+              "description": "Report any actions to blind assessment of the outcome to be predicted",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Predictors",
+          "items": [
+            {
+              "item": "9a",
+              "description": "Describe the choice of initial predictors (e.g., literature, previous models, all available predictors) and any pre-selection of predictors before model building",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            },
+            {
+              "item": "9b",
+              "description": "Clearly define all predictors, including how and when they were measured (and any actions to blind assessment of predictors for the outcome and other predictors)",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "9c",
+              "description": "If predictor measurement requires subjective interpretation, describe the qualifications and demographic characteristics of the predictor assessors",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Sample size",
+          "items": [
+            {
+              "item": "10",
+              "description": "Explain how the study size was arrived at (separately for development and evaluation), and justify that the study size was sufficient to answer the research question. Include details of any sample size calculation",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Missing data",
+          "items": [
+            {
+              "item": "11",
+              "description": "Describe how missing data were handled. Provide reasons for omitting any data",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Analytical methods",
+          "items": [
+            {
+              "item": "12a",
+              "description": "Describe how the data were used (e.g., for development and evaluation of model performance) in the analysis, including whether the data were partitioned, considering any sample size requirements",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            },
+            {
+              "item": "12b",
+              "description": "Depending on the type of model, describe how predictors were handled in the analyses (functional form, rescaling, transformation, or any standardisation).",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            },
+            {
+              "item": "12c",
+              "description": "Specify the type of model, rationale, all model-building steps, including any hyperparameter tuning, and method for internal validation",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            },
+            {
+              "item": "12d",
+              "description": "Describe if and how any heterogeneity in estimates of model parameter values and model performance was handled and quantified across clusters (e.g., hospitals, countries). See TRIPOD-Cluster for additional considerations",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "12e",
+              "description": "Specify all measures and plots used (and their rationale) to evaluate model performance (e.g., discrimination, calibration, clinical utility) and, if relevant, to compare multiple models",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "12f",
+              "description": "Describe any model updating (e.g., recalibration) arising from the model evaluation, either overall or for particular sociodemographic groups or settings",
+              "type": "Essential",
+              "scope": "evaluation",
+              "reportLocation": ""
+            },
+            {
+              "item": "12g",
+              "description": "For model evaluation, describe how the model predictions were calculated (e.g., formula, code, object, application programming interface)",
+              "type": "Essential",
+              "scope": "evaluation",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Class imbalance",
+          "items": [
+            {
+              "item": "13",
+              "description": "If class imbalance methods were used, state why and how this was done, and any subsequent methods to recalibrate the model or the model predictions",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Fairness",
+          "items": [
+            {
+              "item": "14",
+              "description": "Describe any approaches that were used to address model fairness and their rationale",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Model output",
+          "items": [
+            {
+              "item": "15",
+              "description": "Specify the output of the prediction model (e.g., probabilities, classification). Provide details and rationale for any classification and how the thresholds were identified",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Training versus evaluation",
+          "items": [
+            {
+              "item": "16",
+              "description": "Identify any differences between the development and evaluation data in healthcare setting, eligibility criteria, outcome, and predictors",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Ethical approval",
+          "items": [
+            {
+              "item": "17",
+              "description": "Name the institutional research board or ethics committee that approved the study and describe the participant-informed consent or the ethics committee waiver of informed consent",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OPEN SCIENCE",
+      "sections": [
+        {
+          "name": "Funding",
+          "items": [
+            {
+              "item": "18a",
+              "description": "Give the source of funding and the role of the funders for the present study",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Conflicts of interest",
+          "items": [
+            {
+              "item": "18b",
+              "description": "Declare any conflicts of interest and financial disclosures for all authors",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Protocol",
+          "items": [
+            {
+              "item": "18c",
+              "description": "Indicate where the study protocol can be accessed or state that a protocol was not prepared",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Registration",
+          "items": [
+            {
+              "item": "18d",
+              "description": "Provide registration information for the study, including register name and registration number, or state that the study was not registered",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Data sharing",
+          "items": [
+            {
+              "item": "18e",
+              "description": "Provide details of the availability of the study data",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Code sharing",
+          "items": [
+            {
+              "item": "18f",
+              "description": "Provide details of the availability of the analytical code",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PATIENT & PUBLIC INVOLVEMENT",
+      "sections": [
+        {
+          "name": "Patient & Public Involvement",
+          "items": [
+            {
+              "item": "19",
+              "description": "Provide details of any patient and public involvement during the design, conduct, reporting, interpretation, or dissemination of the study or state no involvement.",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RESULTS",
+      "sections": [
+        {
+          "name": "Participants",
+          "items": [
+            {
+              "item": "20a",
+              "description": "Describe the flow of participants through the study, including the number of participants with and without the outcome and, if applicable, a summary of the follow-up time. A diagram may be helpful.",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "20b",
+              "description": "Report the characteristics overall and, where applicable, for each data source or setting, including the key dates, key predictors (including demographics), treatments received, sample size, number of outcome events, follow-up time, and amount of missing data. A table may be helpful. Report any differences across key demographic groups.",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "20c",
+              "description": "For model evaluation, show a comparison with the development data of the distribution of important predictors (demographics, predictors, and outcome).",
+              "type": "Essential",
+              "scope": "evaluation",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Model development",
+          "items": [
+            {
+              "item": "21",
+              "description": "Specify the number of participants and outcome events in each analysis (e.g., for model development, hyperparameter tuning, model evaluation)",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Model specification",
+          "items": [
+            {
+              "item": "22",
+              "description": "Provide details of the full prediction model (e.g., formula, code, object, application programming interface) to allow predictions in new individuals and to enable third-party evaluation and implementation, including any restrictions to access or re-use (e.g., freely available, proprietary)",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Model performance",
+          "items": [
+            {
+              "item": "23a",
+              "description": "Report model performance estimates with confidence intervals, including for any key subgroups (e.g., sociodemographic). Consider plots to aid presentation.",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            },
+            {
+              "item": "23b",
+              "description": "If examined, report results of any heterogeneity in model performance across clusters. See TRIPOD Cluster for additional details.",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Model updating",
+          "items": [
+            {
+              "item": "24",
+              "description": "Report the results from any model updating, including the updated model and subsequent performance",
+              "type": "Essential",
+              "scope": "evaluation",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DISCUSSION",
+      "sections": [
+        {
+          "name": "Interpretation",
+          "items": [
+            {
+              "item": "25",
+              "description": "Give an overall interpretation of the main results, including issues of fairness in the context of the objectives and previous studies",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Limitations",
+          "items": [
+            {
+              "item": "26",
+              "description": "Discuss any limitations of the study (such as a non-representative sample, sample size, overfitting, missing data) and their effects on any biases, statistical uncertainty, and generalizability",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        },
+        {
+          "name": "Usability of the model in the context of current care",
+          "items": [
+            {
+              "item": "27a",
+              "description": "Describe how poor quality or unavailable input data (e.g., predictor values) should be assessed and handled when implementing the prediction model",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            },
+            {
+              "item": "27b",
+              "description": "Specify whether users will be required to interact in the handling of the input data or use of the model, and what level of expertise is required of users",
+              "type": "Essential",
+              "scope": "development",
+              "reportLocation": ""
+            },
+            {
+              "item": "27c",
+              "description": "Discuss any next steps for future research, with a specific view to applicability and generalizability of the model",
+              "type": "Essential",
+              "scope": "both",
+              "reportLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

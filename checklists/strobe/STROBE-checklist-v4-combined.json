@@ -1,0 +1,499 @@
+{
+  "title": "STROBE Statement—checklist of items that should be included in reports of observational studies",
+  "source": "http://www.strobe-statement.org/",
+  "description": "Checklist of items that should be included in reports of observational studies. An Explanation and Elaboration article discusses each checklist item and gives methodological background and published examples of transparent reporting.",
+  "items": [
+    {
+      "category": "Title and abstract",
+      "section": "Title and abstract",
+      "item": "1a",
+      "elements": [
+        {
+          "description": "Indicate the study's design with a commonly used term in the title or the abstract",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Title and abstract",
+      "section": "Title and abstract",
+      "item": "1b",
+      "elements": [
+        {
+          "description": "Provide in the abstract an informative and balanced summary of what was done and what was found",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Introduction",
+      "section": "Background/rationale",
+      "item": "2",
+      "elements": [
+        {
+          "description": "Explain the scientific background and rationale for the investigation being reported",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Introduction",
+      "section": "Objectives",
+      "item": "3",
+      "elements": [
+        {
+          "description": "State specific objectives, including any prespecified hypotheses",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Study design",
+      "item": "4",
+      "elements": [
+        {
+          "description": "Present key elements of study design early in the paper",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Setting",
+      "item": "5",
+      "elements": [
+        {
+          "description": "Describe the setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Participants",
+      "item": "6a-cohort",
+      "elements": [
+        {
+          "description": "Give the eligibility criteria, and the sources and methods of selection of participants. Describe methods of follow-up",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Participants",
+      "item": "6a-case-control",
+      "elements": [
+        {
+          "description": "Give the eligibility criteria, and the sources and methods of case ascertainment and control selection. Give the rationale for the choice of cases and controls",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Participants",
+      "item": "6a-cross-sectional",
+      "elements": [
+        {
+          "description": "Give the eligibility criteria, and the sources and methods of selection of participants",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Participants",
+      "item": "6b-cohort",
+      "elements": [
+        {
+          "description": "For matched studies, give matching criteria and number of exposed and unexposed",
+          "type": "Where applicable",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Participants",
+      "item": "6b-case-control",
+      "elements": [
+        {
+          "description": "For matched studies, give matching criteria and the number of controls per case",
+          "type": "Where applicable",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Variables",
+      "item": "7",
+      "elements": [
+        {
+          "description": "Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Data sources/measurement",
+      "item": "8",
+      "elements": [
+        {
+          "description": "For each variable of interest, give sources of data and details of methods of assessment (measurement). Describe comparability of assessment methods if there is more than one group",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Bias",
+      "item": "9",
+      "elements": [
+        {
+          "description": "Describe any efforts to address potential sources of bias",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Study size",
+      "item": "10",
+      "elements": [
+        {
+          "description": "Explain how the study size was arrived at",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Quantitative variables",
+      "item": "11",
+      "elements": [
+        {
+          "description": "Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen and why",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12a",
+      "elements": [
+        {
+          "description": "Describe all statistical methods, including those used to control for confounding",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12b",
+      "elements": [
+        {
+          "description": "Describe any methods used to examine subgroups and interactions",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12c",
+      "elements": [
+        {
+          "description": "Explain how missing data were addressed",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12d-cohort",
+      "elements": [
+        {
+          "description": "If applicable, explain how loss to follow-up was addressed",
+          "type": "Where applicable",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12d-case-control",
+      "elements": [
+        {
+          "description": "If applicable, explain how matching of cases and controls was addressed",
+          "type": "Where applicable",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12d-cross-sectional",
+      "elements": [
+        {
+          "description": "If applicable, describe analytical methods taking account of sampling strategy",
+          "type": "Where applicable",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Methods",
+      "section": "Statistical methods",
+      "item": "12e",
+      "elements": [
+        {
+          "description": "Describe any sensitivity analyses",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Participants",
+      "item": "13a",
+      "elements": [
+        {
+          "description": "Report numbers of individuals at each stage of study—eg numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, completing follow-up, and analysed",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Participants",
+      "item": "13b",
+      "elements": [
+        {
+          "description": "Give reasons for non-participation at each stage",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Participants",
+      "item": "13c",
+      "elements": [
+        {
+          "description": "Consider use of a flow diagram",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Descriptive data",
+      "item": "14a",
+      "elements": [
+        {
+          "description": "Give characteristics of study participants (eg demographic, clinical, social) and information on exposures and potential confounders",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Descriptive data",
+      "item": "14b",
+      "elements": [
+        {
+          "description": "Indicate number of participants with missing data for each variable of interest",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Descriptive data",
+      "item": "14c",
+      "elements": [
+        {
+          "description": "Summarise follow-up time (eg, average and total amount)",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Outcome data",
+      "item": "15-cohort",
+      "elements": [
+        {
+          "description": "Report numbers of outcome events or summary measures over time",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Outcome data",
+      "item": "15-case-control",
+      "elements": [
+        {
+          "description": "Report numbers in each exposure category, or summary measures of exposure",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Outcome data",
+      "item": "15-cross-sectional",
+      "elements": [
+        {
+          "description": "Report numbers of outcome events or summary measures",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Main results",
+      "item": "16a",
+      "elements": [
+        {
+          "description": "Give unadjusted estimates and, if applicable, confounder-adjusted estimates and their precision (eg, 95% confidence interval). Make clear which confounders were adjusted for and why they were included",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Main results",
+      "item": "16b",
+      "elements": [
+        {
+          "description": "Report category boundaries when continuous variables were categorized",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Main results",
+      "item": "16c",
+      "elements": [
+        {
+          "description": "If relevant, consider translating estimates of relative risk into absolute risk for a meaningful time period",
+          "type": "Where applicable",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Results",
+      "section": "Other analyses",
+      "item": "17",
+      "elements": [
+        {
+          "description": "Report other analyses done—eg analyses of subgroups and interactions, and sensitivity analyses",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Discussion",
+      "section": "Key results",
+      "item": "18",
+      "elements": [
+        {
+          "description": "Summarise key results with reference to study objectives",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Discussion",
+      "section": "Limitations",
+      "item": "19",
+      "elements": [
+        {
+          "description": "Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Discussion",
+      "section": "Interpretation",
+      "item": "20",
+      "elements": [
+        {
+          "description": "Give a cautious overall interpretation of results considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Discussion",
+      "section": "Generalisability",
+      "item": "21",
+      "elements": [
+        {
+          "description": "Discuss the generalisability (external validity) of the study results",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    },
+    {
+      "category": "Other information",
+      "section": "Funding",
+      "item": "22",
+      "elements": [
+        {
+          "description": "Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based",
+          "type": "Essential",
+          "reportLocation": ""
+        }
+      ]
+    }
+  ]
+}
